@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Menu</h2>
+  <div class="menu-grid">
+    <mat-card *ngFor="let item of [1,2,3,4,5,6]">
+      <mat-card-header>
+        <mat-card-title>Dish {{item}}</mat-card-title>
+        <mat-card-subtitle>Veg/Non-Veg</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://picsum.photos/seed/{{item}}/400/250" alt="Dish">
+      <mat-card-content>
+        <p>Tasty home-style meal. Limited slots daily.</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary">Add</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.hero {
+  background: linear-gradient(135deg, #ffb74d 0%, #ff7043 100%);
+  color: #fff;
+  padding: 96px 0;
+  h1 {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 24px;
+    opacity: 0.95;
+  }
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 32px 0;
+  .feature {
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+}
